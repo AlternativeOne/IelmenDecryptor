@@ -24,7 +24,7 @@ ielmendecryptor.exe inputDirectory outputDirectory
 
 ### Build
 
-Two versions are provided: `rust` and `c#`. To build the `rust` version, run `cargo build --release` in the corresponding directory. For the `c#`, version, use the included solution file.
+To build run `cargo build --release` in the corresponding directory.
 
 ### Warning
 
