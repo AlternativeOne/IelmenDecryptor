@@ -1,8 +1,6 @@
 # IelmenDecryptor
 
-![ChatGPT writes a greentext](/docs/header.png)
-
-A batch decryption program for the files of a game on Steam that has the app ID: `2378900`
+A batch decryption program for the files of The Coffin of Andy and Leyley (for versions 2.0.9 and lower).
 
 It will process all encrypted `.png`, `.json`, and `.ogg` files in the directory and save them to a new folder. It will not attempt to decrypt any files that are not encrypted.
 
@@ -33,5 +31,3 @@ Two versions are provided: `rust` and `c#`. To build the `rust` version, run `ca
 Decrypting the game assets by using the built-in JavaScript decryption functions will leave personally identifying info inside of any files that you decrypt.
 
 The decrypted file data from this program is completely clean. You can verify this by using a hex editor.
-
-![Cry about it](https://img.itch.zone/aW1nLzEyMjEwMjY0LnBuZw==/original/6wypHw.png)
